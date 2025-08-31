@@ -15,7 +15,7 @@ FocusMate는 집중력 향상을 위한 웹 애플리케이션입니다.
 ---
 
 ## 📂 기술 스택
-- **Frontend**: HTML, CSS, JavaScript (Vanilla JS)
+- **Frontend**: HTML, CSS, JavaScript
 - **Data Storage**: LocalStorage
 - **Deployment**: GitHub Pages
 
