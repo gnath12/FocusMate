@@ -52,5 +52,6 @@ FocusMate는 집중력 향상을 위한 웹 애플리케이션입니다.
 - 메인 화면용 `index.html` 구조 정리
 - 타이머 화면용 `Pomodoro.html` 구조 정리
 - `style.css` 생성
+- `Pomodoro.js` 생성
 
 
