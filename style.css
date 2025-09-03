@@ -80,7 +80,7 @@ body {
 }
 
 .timer {
-  background: #e6e6ff;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,6 +96,19 @@ body {
   font-weight: bold;
   text-align: center;
   line-height: 100%;
+}
+
+.clock-img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.clock-img:hover {
+  transform: scale(1.05);
 }
 
 
@@ -153,7 +166,7 @@ body {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background: conic-gradient(#6a5acd 0deg, #ddd 0deg);
+  background: conic-gradient(#015c2b 0deg, #ddd 0deg);
   margin: 50px auto;
   display: flex;
   justify-content: center;
