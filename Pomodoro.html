@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <title>Pomodoro Timer</title>
@@ -9,14 +9,23 @@
 
 
 <div class="timer-container">
+  <!-- 타이머 배경 -->
   <img src="images/Timer.png" alt="Timer Frame" class="timer-frame">
-  <canvas id="timerCanvas"></canvas>
+
+
+  <!-- 아날로그 다이얼 -->
+  <div id="dial"></div>
 </div>
 
+<div class="buttons">
   <button onclick="startTimer()">Start</button>
   <button onclick="resetTimer()">Reset</button>
   <button id="analogBtn" onclick="setAnalogMode()">Analog Mode</button>
   <button id="digitalBtn" onclick="setDigitalMode()">Digital Mode</button>
+</div>
+
+  <!-- 디지털 타이머 -->
+  <div id="timeDisplay" class="hidden">25:00</div>
 
   <!-- JS 파일 연결 -->
   <script src="Pomodoro.js"></script>
