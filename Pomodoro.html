@@ -6,9 +6,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="dial" id="dial">
-    <span id="timeDisplay" class="hidden">25:00</span>
-  </div>
+
+
+<div class="timer-container">
+  <img src="images/Timer.png" alt="Timer Frame" class="timer-frame">
+  <canvas id="timerCanvas"></canvas>
+</div>
 
   <button onclick="startTimer()">Start</button>
   <button onclick="resetTimer()">Reset</button>
