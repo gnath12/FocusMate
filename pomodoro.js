@@ -33,8 +33,7 @@ function updateDial() {
 
 // 타이머 시작
 function startTimer() {
-  if (timer) clearInterval(timer);
-  elapsed = 0;
+  if (timer) return;
 
   if (isAnalog) {
     document.getElementById("dial").style.background = "conic-gradient(#6a5acd 0deg, #ddd 0deg)";
@@ -43,6 +42,14 @@ function startTimer() {
   }
 
   timer = setInterval(updateDial, 1000);
+}
+
+// 타이머 중단
+function stopTimer() {
+  if (timer) {
+    clearInterval(timer);
+    timer = null;
+  }
 }
 
 // 타이머 리셋
