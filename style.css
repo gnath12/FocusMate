@@ -34,10 +34,10 @@ body {
 }
 
 .profile {
-  width: 120px;
-  height: 120px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  background: #EC8B57;
+  background: #015c2b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +46,7 @@ body {
 .routine {
   flex: 1;
   width: 100%;
-  background: #eee;
+  background: #f9efe2;
   padding: 1rem;
 }
 
@@ -59,12 +59,12 @@ body {
 }
 
 .focus-week {
-  background: #eee;
+  background: #f9efe2;
   height: 250px;
 }
 
 .message {
-  background: #eee;
+  background: #edc18e;
   height: 120px;
 }
 
@@ -76,7 +76,12 @@ body {
 }
 
 .todo {
-  background: #eee;
+  background: #f9efe2;
+}
+
+.todo-img {
+  width: 500px;
+  height: auto;
 }
 
 .timer {
@@ -99,7 +104,7 @@ body {
 }
 
 .clock-img {
-  width: 500px;
+  width: 400px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -108,8 +113,7 @@ body {
 }
 
 
-
-/* 뽀모도로 타이머 */
+/* Pomodoro.html */
 
 .timer-container {
   position: relative;
