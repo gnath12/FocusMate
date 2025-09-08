@@ -1,0 +1,46 @@
+/* todo.html */
+table {
+  border-collapse: collapse;
+  width: 800px;
+  margin: 1rem auto;
+  background-color: #f9efe2;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+}
+
+
+/* 테이블 디자인 */
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #B0B0B0;
+  text-align: center;
+}
+
+th {
+  padding: 8px;
+  text-align: left;
+  text-align: left;
+  border-bottom: 1.5px solid #000;
+  color: #000;
+
+}
+
+
+/* 테이블 비율 */
+th:nth-child(1),
+td:nth-child(1) {
+  width: 8%;
+  border-right: 1px solid #FFA7A7;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 92%;
+}
+
+/* 테이블 선택했을 때 */
+tbody tr:hover {
+  background-color: #d3d3d3;
+  opacity: 0.9;
+  cursor: pointer;
+}
