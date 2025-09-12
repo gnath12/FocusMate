@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FocusMate</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <!-- 왼쪽 사이드바 -->
-    <aside class="sidebar">
-      <div class="profile">Profile</div>
-      <div class="routine">Routine</div>
-    </aside>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusMate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- 왼쪽 사이드바 -->
+      <aside class="sidebar">
+        <div class="profile">Profile</div>
+        <div class="routine">Routine</div>
+      </aside>
 
-    <!-- 오른쪽 메인 콘텐츠 -->
-    <main class="content">
-      <section class="focus-week">Focus Week
-        <a href="focusWeek.html" class="week-link"></a>
-      </section>
-      <section class="message">Message</section>
-      <div class="bottom-row">
-        <section class="todo">To-do List
-          <img src="images/Todo.png" alt="Todo-list" class="todo-img">
+      <!-- 오른쪽 메인 콘텐츠 -->
+      <main class="content">
+        <section class="focus-week">
+          Focus Week
+          <a href="focusWeek.html" class="week-link"></a>
         </section>
-        <section class="timer">
-          <a href="Pomodoro.html" class="timer-link">
-            <img src="images/Pomodoro_clock.png" alt="Pomodoro Timer" class="clock-img">
-          </a>
-        </section>
-      </div>
-    </main>
-  </div>
-</body>
+        <section class="message" id="message-box">Message</section>
+        <div class="bottom-row">
+          <section class="todo">
+            To-do List
+            <img src="images/Todo.png" alt="Todo-list" class="todo-img" />
+          </section>
+          <section class="timer">
+            <a href="Pomodoro.html" class="timer-link">
+              <img
+                src="images/Pomodoro_clock.png"
+                alt="Pomodoro Timer"
+                class="clock-img"
+              />
+            </a>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
