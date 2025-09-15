@@ -51,6 +51,7 @@ FocusMate는 집중력 향상을 위한 웹 애플리케이션입니다.
 
 - `index.html`: 메인 화면 (UI 프레임)
 - `Pomodoro.html`: 타이머 화면
+- `Pomodoro.js` : 타이머 화면 js 파일
 - `message.js` : 동기부여 메시지 js 파일
 - 이후 기능별 JS/CSS 파일 추가 예정
 
