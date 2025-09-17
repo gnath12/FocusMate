@@ -11,6 +11,11 @@ const MESSAGES = [
   "내가 나를 만든다. 지금 이 선택으로.",
   "리듬을 타면 쉬워진다. 가볍게 출발!",
   "시작하면 절반은 끝난 거야.",
+  "Great things take time.",
+  "Becoming a better version of me.",
+  "You`re glowing all the time.",
+  "As time flows, dreams grow.",
+  "You are strong enough to realize your dream."
 ];
 
 function dateKey(d = new Date()) {
